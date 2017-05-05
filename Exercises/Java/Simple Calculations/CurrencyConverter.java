@@ -1,9 +1,6 @@
 import java.text.DecimalFormat;
 import java.util.Scanner;
 
-/**
- * Created by Alex on 29.4.2017 г..
- */
 public class CurrencyConverter {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
