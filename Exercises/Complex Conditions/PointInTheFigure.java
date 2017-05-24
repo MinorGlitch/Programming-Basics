@@ -1,12 +1,13 @@
 import java.util.Scanner;
 
-public class PointInFigure {
+public class PointInTheFigure {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
         int h = Integer.parseInt(scanner.nextLine());
 
         int x = Integer.parseInt(scanner.nextLine());
+
         int y = Integer.parseInt(scanner.nextLine());
 
         boolean inside = (x > 0 && x < h * 3) && (y > 0 && y < h) ||

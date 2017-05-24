@@ -7,7 +7,6 @@ public class Cinema {
         String typeOfProjection = scanner.nextLine();
 
         int c = Integer.parseInt(scanner.nextLine());
-
         int r = Integer.parseInt(scanner.nextLine());
 
         double x = 0.0;
@@ -23,7 +22,6 @@ public class Cinema {
                 x = 5;
                 break;
         }
-
         double result = c * r * x;
 
         System.out.println(result);
